@@ -1,0 +1,44 @@
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 770px) {
+    nav {
+      padding: 0 2rem;
+    }
+  }
+  
+  nav > ul {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    transform: scale(1.5);
+  }
+  
+  nav a {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: var(--highlight);
+  }
+  nav > h2{
+    font-size: 2rem;
+    background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
+    animation: moveGradient 2s linear infinite;
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
