@@ -2,10 +2,11 @@
 .about-me {
     padding: 0 8rem;
     height: 80vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    
     gap: 3rem;
     background: linear-gradient(
         rgba(0, 0, 0, 0.1),  
@@ -17,13 +18,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-
   
-  @media (max-width: 700px) {
-    .home {
-      padding: 0 2rem;
-    }
-  }
   @keyframes moveGradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -42,10 +37,22 @@
   .about-me > p {
     font-size: 1.5rem;
   }
-  .about-me > h2 {
-    font-size: 2.5rem;
-    margin-top: 40px;
+  .lists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
   }
-  .about-me > ul{
+  .list-container > h2 {
+    font-size: 2.0rem;
+  }
+  .list-container > ul{
     font-size: 1.5rem;
+    width: 50%;
+    padding: 0;
+  }
+  .list-container > ul > li {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
   }
