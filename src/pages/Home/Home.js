@@ -10,7 +10,8 @@ export const Home = () => {
     <p>Hey, I'm</p>
     <h1>Carlos Vidal Puigcerver</h1>
     ${Divider()}
-    <p>I'm a full-stack software engineering student based in Callosa d'en Sarrià, Spain, with a background in administration and finance. I have over 13 years of experience working in administration and as a computer science teacher.
+    <p>I'm a full-stack software engineering student based in Callosa d'en Sarrià, Spain, with a background in administration and finance. I have over 13 years of experience working in administration and as a computer science teacher. 
+    In my job, I have assembled and repaired numerous computers, installed IT equipment al clients companies, and handled many other technology-related tasks.
     I enjoy building things for the web, whether it's websites, applications, or anything in between. Currently, I'm diving deep into both frontend and backend development, constantly learning and improving my skills.</p>
     <a href="mailto:carlosvidalpuigcerver@gmail.com">Send me an email →</a>
     </section>`;
