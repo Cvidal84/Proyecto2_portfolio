@@ -26,7 +26,6 @@ export const AboutMe = () => {
         <li>💻 13 years teaching computer science at a private academy.</li>
       </ul>
     </div>
-
     <div class="list-container">
       <h2>My hobbies and interests</h2>
       <ul>

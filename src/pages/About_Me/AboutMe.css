@@ -1,25 +1,12 @@
 .about-me {
-  padding: 0 8rem;
-  height: 80vh;
+  padding: 0 5rem;
+  height: 100%;
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  
-  gap: 3rem;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.1),  
-      rgba(0, 0, 0, 0.9)  
-    ); 
-
-  background-size: 100% 50%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  gap: 3rem; 
 }
-
 @media (max-width: 770px) {
   .about-me {
       flex-direction: column;
@@ -27,36 +14,33 @@
       align-items: center;
       padding: 0 2rem; /* Corrección del padding */
       text-align: center; /* Centra el contenido */
+      margin-top: 100px;
+      margin-bottom: 150px;
+      width: 100%;
   }
-
-  .about-me > p {
-      width: 100%; /* Ocupar todo el ancho disponible */
-      max-width: 100%;
-  }
-
   .lists {
-      flex-direction: column; /* Asegura que las listas se apilen en pantallas pequeñas */
+      flex-direction: column; 
       align-items: center;
       gap: 1rem;
   }
-
   .list-container > ul {
-      width: 100%; /* Hace que las listas ocupen todo el ancho disponible */
+      width: 100%; 
       text-align: left;
   }
   .list-container > ul > li {
+    width: 100%;
     text-align: left;
+    align-items: center;
   }
 }
-
 @keyframes moveGradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
 .about-me > h1 {
   font-size: 5.5rem;
+  margin-bottom: 2rem;
   background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
   animation: moveGradient 2s linear infinite;
   background-size: 200% 200%;
@@ -64,30 +48,39 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .about-me > p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   width: 100%;
   max-width: 100%;
 }
-
 .lists {
+  flex: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 20px;
 }
-
+.list-container {
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .list-container > h2 {
   font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
+  animation: moveGradient 2s linear infinite;
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 .list-container > ul {
-  font-size: 1.5rem;
-  width: 50%;
+  font-size: 1.2rem;
+  gap: 20px;
+  width: 100%;
   padding: 0;
 }
-
 .list-container > ul > li {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
 }
