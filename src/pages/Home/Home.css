@@ -18,27 +18,28 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-
-  
-  @media (max-width: 700px) {
-    .home {
-      padding: 0 2rem;
-    }
-  }
-  @keyframes moveGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
   .home > h1 {
-    
-    font-size: 2.5rem;
+    font-size: 5.5rem;
     background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
     animation: moveGradient 2s linear infinite;
     background-size: 200% 200%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  
+  @media (max-width: 700px) {
+    .home {
+      padding: 0 2rem;
+    }
+    .home > h1 {
+      font-size: 2.5rem;
+    }
+  }
+  @keyframes moveGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
   .home > p {
     font-size: 1.4rem;
