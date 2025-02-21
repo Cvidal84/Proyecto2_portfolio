@@ -12,11 +12,14 @@
       flex-direction: column;
       flex-wrap: nowrap;
       align-items: center;
-      padding: 0 2rem; /* Corrección del padding */
-      text-align: center; /* Centra el contenido */
+      padding: 0 2rem;
+      text-align: center; 
       margin-top: 100px;
       margin-bottom: 150px;
       width: 100%;
+  }
+  .about-header > h1 {
+    font-size: 2.5rem; /* O 3rem, según prefieras */
   }
   .lists {
       flex-direction: column; 
@@ -100,4 +103,19 @@
   justify-content: space-between;
   margin-left: 100px;
   margin-right: 100px;
+}
+@media (max-width: 700px) {
+  .about-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-header h1 {
+    font-size: 4.0rem;
+  }
+  .lists {
+    box-sizing: border-box;
+  }
+  .list-container >ul >li {
+    margin-right: 30px;
+  }
 }

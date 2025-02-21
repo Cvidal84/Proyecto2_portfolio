@@ -6,13 +6,28 @@ footer {
     gap: 4rem;
     flex-wrap: wrap;
     margin: 2rem 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+ 
   }
   
   @media (max-width: 770px) {
     footer {
-      padding: 0 2rem;
+      padding: 20px 2rem; 
       gap: 2rem;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px; 
     }
+    h2 {
+      
+    }
+    div {
+      justify-content: center;
+    }
+
   }
   
   footer > div {
@@ -20,3 +35,4 @@ footer {
     gap: 1rem;
     flex-wrap: wrap;
   }
+  

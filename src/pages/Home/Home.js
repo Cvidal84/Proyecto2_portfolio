@@ -7,7 +7,7 @@ export const Home = () => {
   cleanPage(main);
   main.innerHTML = `
     <section class="home">
-    <p>Hey, I'm</p>
+    <p class="hey">Hey, I'm</p>
     <h1>Carlos Vidal Puigcerver</h1>
     ${Divider()}
     <p>I'm a full-stack software engineering student based in Callosa d'en Sarrià, Spain, with a background in administration and finance. I have over 13 years of experience working in administration and as a computer science teacher. 

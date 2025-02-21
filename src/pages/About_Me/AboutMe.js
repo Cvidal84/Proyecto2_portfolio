@@ -28,10 +28,10 @@ export const AboutMe = () => {
     <div class="list-container">
       <h2>My Qualifications</h2>
       <ul>
-        <li>🎓 Degree in Administration and Finance</li>
+        <li>🎓 Degree in Finance</li>
         <li>🏫 High School Diploma</li>
         <li>🗣 English Certification</li>
-        <li>💻 13 years teaching computer science at a private academy.</li>
+        <li>💻 13 years teaching IT.</li>
       </ul>
     </div>
     <div class="list-container">
