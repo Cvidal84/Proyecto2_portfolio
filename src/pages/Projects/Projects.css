@@ -11,6 +11,8 @@
   @media (max-width: 770px) {
     .projects {
       padding: 0 2rem;
+      min-height: 900px;
+      height: 100vh;
     }
   }
   
