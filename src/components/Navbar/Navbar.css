@@ -13,32 +13,27 @@ nav {
     align-items: center;
     padding: 0 8rem;
     flex-wrap: wrap;
-  }
-  
+  } 
   @media (max-width: 770px) {
     nav {
       padding: 0 2rem;
     }
   }
-  
   nav > ul {
     margin-top: 20px;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
   }
-  
   nav button {
     background: none;
     border: none;
     color: inherit;
     transform: scale(1.5);
   }
-  
   nav a {
     transition: all 0.3s ease-in-out;
     display: inline-block;
   }
-  
   nav a:hover {
     animation: neon-text 2s infinite alternate;
     transition: all 0.3s ease-in-out;
@@ -62,9 +57,35 @@ nav {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  nav a:focus {
+    outline: none;
+  }
   @media (max-width: 450px) {
-    nav {
-      
+    nav  ul li a {
+      font-size: 1.1rem;
     }
+  }
+  nav a:focus,
+  nav a:active {
+    outline: none;
+    box-shadow: none;
+  }
+  nav a {
+  -webkit-tap-highlight-color: transparent;
+  }
+  #themeBtn {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  #themeBtn:focus,
+  #themeBtn:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  #themeBtn::-moz-focus-inner {
+    border: 0;
   }
