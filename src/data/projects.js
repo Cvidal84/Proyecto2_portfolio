@@ -31,5 +31,13 @@ export const projects = [
       github: "https://github.com/Cvidal84/Practica_Dom_Galeria_dinamica",
       link: "https://practicadomgaleriadinamica.netlify.app",
     },
+    {
+      title: "Project 2 - Portfolio",
+      description: "In this project, I have grouped all the projects so far and have tried to use all the knowledge I have up to date.",
+      image:"/images/portfolio.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "DOM", "Vite"],
+      github: "https://github.com/Cvidal84/Proyecto2_portfolio",
+      link: "https://portfolio-carlos-vidal.netlify.app/",
+    },
     
   ];
