@@ -28,7 +28,7 @@
     -webkit-text-fill-color: transparent;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 770px) {
     .home {
       padding: 0 2rem;
       min-height: 900px;
@@ -54,4 +54,10 @@
   }
   .home > *:nth-child(3) {
     margin-top: -40px;
+}
+@media (max-width: 700px) {
+  
+  .home > h1 {
+    font-size: 1.5rem;
+  }
 }
