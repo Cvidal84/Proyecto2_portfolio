@@ -38,14 +38,14 @@ nav {
     animation: neon-text 2s infinite alternate;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    transform: scale(1.7);
+    transform: scale(1.4);
     filter: brightness(1.5) contrast(1.2);
   }
   nav button:hover {
     animation: neon-text 1.5s infinite alternate;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    transform: scale(3.9);
+    transform: scale(2.9);
     filter: brightness(1.5) contrast(1.2);
   }
   nav > h2{
