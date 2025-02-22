@@ -7,7 +7,7 @@ export const Footer = () => `
 <div>
 ${Button("/icons/github.jpeg", "GitHub", "https://github.com/Cvidal84")}
 ${Button("/icons/in.jpeg", "LinkedIn", "https://www.linkedin.com/in/carlos-vidal-puigcerver ")}
-${Button("/icons/telegram.png", "Telegram", "t.me/Carlosvidal")}
+${Button("/icons/telegram.png", "Telegram", "https://www.t.me/Carlosvidal")}
 ${Button("/icons/instagram.jpg", "Instagram", "https://www.instagram.com/carlosvidalpuigcerver/")}
 </div>
 `;
