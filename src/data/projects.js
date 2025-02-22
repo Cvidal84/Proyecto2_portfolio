@@ -16,7 +16,7 @@ export const projects = [
       link: "https://entrega-grid-thepower.netlify.app",
     },
     {
-      title: "First-project",
+      title: "Project 1",
       description: "This was my first project using flexbox and grid together",
       image:"/images/first-project.png",
       tech: ["HTML5", "CSS3"],
