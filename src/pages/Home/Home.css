@@ -2,17 +2,14 @@
 .home {
     padding: 0 8rem;
     height: 80vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 3rem;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.1),  
-        rgba(0, 0, 0, 0.9)  
-      ),
-      url("/public/images/codigo.jpeg"); 
-    
+    background-image:url("/public/images/black.jpg");
+    background-color: black;
     background-size: 100% 50%;
     background-position: top;
     background-repeat: no-repeat;
@@ -26,8 +23,17 @@
       url("/public/images/light.jpg");
     background-size: 100% 50%;
     background-position: top;
+    background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+  .light .home > p{
+    color: black;
+  }
+  .light .home a{
+    background-color: transparent;
+    color:black;
+    font-weight: 500; 
   }
   .home > h1 {
     font-size: 5.5rem;
@@ -38,7 +44,10 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+  .home > p {
+    background-color: transparent;
+    font-weight: 500;
+  }
   @media (max-width: 770px) {
     .home {
       padding: 0 2rem;
@@ -48,30 +57,29 @@
     .home > h1 {
       font-size: 2.5rem;
     }
+    .home > p {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+    .hey {
+      margin-top: 130px;
+    }
+    .home > a {
+      font-size: 1.5rem;
+      z-index: 300;
+    }
+    .home > *:nth-child(3) {
+      margin-top: -40px;
+  }
   }
   @keyframes moveGradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
-  .home > p {
-    font-size: 1.4rem;
-    text-align: center;
-    
-
-  }
-  .hey {
-    margin-top: 100px;
-  }
-  .home > a {
-    font-size: 1.5rem;
-  }
-  .home > *:nth-child(3) {
-    margin-top: -40px;
-}
 @media (max-width: 700px) {
   
   .home > h1 {
     font-size: 1.5rem;
-  }
+  } 
 }

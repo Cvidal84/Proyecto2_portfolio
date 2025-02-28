@@ -21,7 +21,6 @@
     display: flex;
     gap: 1rem;
   }
-  
   .project-card > .header > div > a > img {
     width: 20px;
     height: 20px;
@@ -42,3 +41,4 @@
   .project-card > .detail > .tech {
     color: var(--highlight);
   }
+  

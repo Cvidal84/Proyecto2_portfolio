@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 .about-me {
   padding: 0 5rem;
@@ -10,36 +11,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 3rem; 
-}
-@media (max-width: 770px) {
-  .about-me {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: center;
-      padding: 0 2rem;
-      text-align: center; 
-      margin-top: 100px;
-      margin-bottom: 150px;
-      width: 100%;   
-  }
-  .about-header > h1 {
-    font-size: 2.5rem; 
-  }
-  .lists {
-      flex-direction: column; 
-      align-items: center;
-      gap: 1rem;
-  }
-  .list-container > ul {
-      width: 100%; 
-      text-align: left;
-  }
-  .list-container > ul > li {
-    width: 100%;
-    text-align: left;
-    align-items: center;
-  }
+  gap: 4.7rem; 
+  background-color: black;
 }
 @keyframes moveGradient {
   0% { background-position: 0% 50%; }
@@ -57,9 +30,11 @@
   height: 250px;
   border-radius: 30px;
 }
+.light *{
+  background-color: white;
+}
 .about-header > h1 {
   font-size: 5.5rem;
-  margin-bottom: 2rem;
   background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
   animation: moveGradient 2s linear infinite;
   background-size: 200% 200%;
@@ -79,13 +54,14 @@
   gap: 20px;
 }
 .list-container {
+  display: flex;
   padding: 20px;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-right: 50px;
 }
 .list-container > h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   background: linear-gradient(to right, #e9064e 0%, #d1df08 50%, #f08a04 100%);
   animation: moveGradient 2s linear infinite;
   background-size: 200% 200%;
@@ -103,18 +79,57 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 770px) {
+  .about-me {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 0 2rem;
+      text-align: center; 
+      width: 100%;   
+  }
+  .about-header > h1 {
+    font-size: 2.5rem; 
+  }
+  .lists {
+    display: flex;
+      flex-direction: column; 
+      align-items: center;
+      gap: 1rem;
+  }
+  .list-container > ul {
+      width: 100%; 
+      text-align: left;
+  }
+  .list-container > ul > li {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+  }
+}  
+
 @media (max-width: 700px) {
   .about-header{
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
   }
   .about-header h1 {
-    font-size: 4.0rem;
+    font-size: 3.5rem;
   }
   .lists {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 a;
     width: 100%;
     max-width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .list-container{
+    padding: 0;
+    margin: 0;
+  }
+  .list-container > h2{
+    text-align: left;
   }
 }

@@ -5,27 +5,41 @@ footer {
     padding: 0 8rem;
     gap: 4rem;
     flex-wrap: wrap;
-    margin: 2rem 0;
     width: 100%;
+    height: auto;
     position: relative;
-    z-index: 10;
+    background-color: black; 
+    z-index: 1000;
+  }
+  .light *{
+    background-color: white;
+  }
+  footer >h2 {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center; 
+  }
+  footer > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 20px;
+    justify-content: center;
   }
   @media (max-width: 770px) {
     footer {
-      padding: 20px 2rem; 
+      padding: 0 2rem;
       gap: 2rem;
-      flex-direction: column; 
-      align-items: center;
-      justify-content: center;
-      margin-top: 100px; 
-    }
-    div {
-      justify-content: center;
     }
   }
-  footer > div {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+  @media (max-width: 450px) {
+    footer > div {
+      width: 100%;
+      background-color: black;
+      padding-bottom: 50px;
+    }
   }
+  
+ 
   
