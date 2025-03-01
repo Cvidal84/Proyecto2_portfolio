@@ -18,7 +18,7 @@
     body.light .home {
     background: linear-gradient(
         rgba(255, 255, 255, 0.1),
-        rgba(255, 255, 255, 0.9)
+        rgba(255, 255, 255, 1.9)
       ),
       url("/public/images/light.jpg");
     background-size: 100% 50%;
