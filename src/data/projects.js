@@ -39,5 +39,13 @@ export const projects = [
       github: "https://github.com/Cvidal84/Proyecto2_portfolio",
       link: "https://portfolio-carlos-vidal.netlify.app/",
     },
+    {
+      title: "Project 3 - Asynchronous Web ",
+      description: "In this project, I fetch photos from the Unsplash API.",
+      image:"/images/web-asincrona.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "DOM", "Vite"],
+      github: "https://github.com/Cvidal84/Proyecto_Web_Asincrono",
+      link: "https://proyectowebasincrono.netlify.app",
+    },
     
   ];
