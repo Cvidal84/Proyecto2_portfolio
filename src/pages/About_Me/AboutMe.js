@@ -9,7 +9,7 @@ export const AboutMe = () => {
     main.innerHTML = `
 <section class="about-me">
   <div class="about-header">
-    <img src="/images/carlos.jpg" alt="Profile Picture" class="profile-pic">
+    <img src="/images/carlos.png" alt="Profile Picture" class="profile-pic">
     <h1>About Me</h1>
   </div>
   ${Divider()}
