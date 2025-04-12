@@ -47,5 +47,13 @@ export const projects = [
       github: "https://github.com/Cvidal84/Proyecto_Web_Asincrono",
       link: "https://proyectowebasincrono.netlify.app",
     },
+    {
+      title: "Project 4 - Curriculum & components ",
+      description: "In this project, I created a curriculum vitae using Vite. I have componentized everything and tried to divide each part to organize everything as efficiently as possible.",
+      image:"/images/curriculum.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "DOM", "Vite"],
+      github: "https://github.com/Cvidal84/Proyecto4_components",
+      link: "https://project4-components.netlify.app/",
+    },
     
   ];
