@@ -40,6 +40,14 @@ export const projects = [
       link: "https://portfolio-carlos-vidal.netlify.app/",
     },
     {
+      title: "Fetch- Api Dragon Ball ",
+      description: "In this project, I fetch items from Dragon Ball API.",
+      image:"/images/dragon_ball.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "DOM",],
+      github: "https://github.com/Cvidal84/Dragon_Ball",
+      link: "https://fetch-api-dragon-ball.netlify.app/",
+    },
+    {
       title: "Project 3 - Asynchronous Web ",
       description: "In this project, I fetch photos from the Unsplash API.",
       image:"/images/web-asincrona.png",
