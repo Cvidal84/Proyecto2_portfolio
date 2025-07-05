@@ -79,5 +79,13 @@ export const projects = [
       github: "https://github.com/Cvidal84/Proyecto4_components",
       link: "https://dootzy.vercel.app/",
     },
+    {
+      title: "Game - Arkanoid ",
+      description: "In this project, I used the canvas to create my first game. I’ve been learning how game physics work, and I connected everything to a database like Supabase. This way, I was able to simulate a backend.",
+      image:"/images/arkanoid.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "Supabase", "Canvas", "Github"],
+      github: "https://github.com/Cvidal84",
+      link: "https://arkanoid-seven.vercel.app/",
+    },
     
   ];
