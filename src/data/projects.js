@@ -87,5 +87,13 @@ export const projects = [
       github: "https://github.com/Cvidal84",
       link: "https://arkanoid-seven.vercel.app/",
     },
+    {
+      title: "Typing-Game ",
+      description: "In this project, I have recreated a typing program to practice my keyboard skills.",
+      image:"/images/typing.png",
+      tech: ["HTML5", "CSS3", "JavaScript", "Github"],
+      github: "https://github.com/Cvidal84/typing-game",
+      link: "https://mecanografia-one.vercel.app/",
+    },
     
   ];
