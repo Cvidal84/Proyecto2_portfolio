@@ -37,7 +37,7 @@ export const projects = [
     image:"/images/curriculum.png",
     tech: ["HTML5", "CSS3", "JavaScript", "DOM", "Vite","Github"],
     github: "https://github.com/Cvidal84/Proyecto4_components",
-    link: "https://proyecto4-components.vercel.app/",
+    link: "https://www.carlosvidal.dev",
   },
   {
     title: "Project 3 - Asynchronous Web ",
