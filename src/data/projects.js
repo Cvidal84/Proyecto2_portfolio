@@ -72,6 +72,22 @@ export const projects = [
     link: "https://library-xml.vercel.app/",
   },
   {
+    title: "Boostrap calculator",
+    description: "This project is a simple web app to manage books. It allows users to add, edit, delete, save to XML, and load book data using local storage.",
+    image:"/images/calculadora.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "DOM", "Boostrap"],
+    github: "https://github.com/Cvidal84/calculadora-boostrap",
+    link: "https://calculadora-boostrap.vercel.app/",
+  },
+  {
+  title: "People List App",
+  description: "This is a small web application that allows users to add people by entering their first and last names. It uses object-oriented programming in JavaScript, DOM manipulation, input validation, and dynamic rendering of the list.",
+  image: "/images/personas.png",
+  tech: ["HTML5", "CSS3", "JavaScript", "DOM", "OOP"],
+  github: "https://github.com/Cvidal84/listado-de-personas",
+  link: "https://listado-de-personas-blue.vercel.app/"
+  },
+  {
     title: "Dom: Dinamic galery",
     description: "In this project i learned to use Dom and create a dinamic galery",
     image:"/images/dom-dinamic-galery.png",
